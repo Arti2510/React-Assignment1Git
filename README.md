@@ -1,3 +1,53 @@
+# 📝 React To-Do List App
+
+A responsive and interactive **To-Do List** application built with **React**, allowing users to:
+
+- ✅ Add new tasks
+- 📝 Edit existing tasks
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+
+---
+
+## 📁 Project Structure
+src/
+└── component/
+├── Header.jsx # Top header of the app
+├── TodoList.jsx # Main logic for adding, editing, deleting todos
+└── TodoItem.jsx # Individual todo item component
+
+## 🛠️ Tech Stack
+
+- React (Vite or Create React App)
+- JavaScript (ES6+)
+- HTML & CSS (or Tailwind, if used)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Arti2510/React-Assignment1Git.git
+cd React-Assignment1Git.git
+
+............
+
+### Install Dependencies
+
+Make sure you have Node.js installed.
+npm install
+npm run dev
+
+🙋‍♀️ Author
+
+- Arti2510
+
+![Project_screenshot](react_assignment-1/src/images/Screenshot of ToDoList_Project_assignment1.png)
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
