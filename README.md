@@ -47,7 +47,7 @@ GitHub: @Arti2510
 
 📸 Project Screenshot
 
-![Project Screenshot](./Screenshot_of_TodoList_Project.png)
+![Project Screenshot]([Screenshot_of_TodoList_Project.png](https://raw.githubusercontent.com/Arti2510/React-Assignment1Git/main/Screenshot_of_TodoList_Project.png))
 
 
 # React + Vite
