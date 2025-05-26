@@ -12,9 +12,9 @@ A responsive and interactive **To-Do List** application built with **React**, al
 ## 📁 Project Structure
 src/
 └── component/
-├── Header.jsx # Top header of the app
-├── TodoList.jsx # Main logic for adding, editing, deleting todos
-└── TodoItem.jsx # Individual todo item component
+    ├── Header.jsx   # Top header of the app
+    ├── TodoList.jsx  # Main logic for adding, editing, deleting todos
+    └── TodoItem.jsx  # Individual todo item component
 
 ## 🛠️ Tech Stack
 
@@ -44,7 +44,7 @@ npm run dev
 
 - Arti2510
 
-![Project_screenshot](react_assignment-1/src/images/Screenshot of ToDoList_Project_assignment1.png)
+![Project Screenshot](./Screenshot_of_TodoList_Project.png)
 
 
 
