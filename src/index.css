@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+.main {
+    margin-top: 50px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px 5px #1d3557;
+}
+
+.header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 137, 195);
+    width: 400px;
+    color: white;
+}
+
+.form {
+    margin: 20px;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addTaskBtn {
+    margin-left: 10px;
+    background-color: cornflowerblue;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addTaskBtn:hover {
+    background-color: rgb(50, 96, 181);
+}
+
+.addTaskBtn:active {
+    background-color: rgb(49, 71, 113);
+}
+
+.inputBox {
+    height: 25px;
+    width: 280px;
+    background-color: aquamarine;
+}
+
+.addTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.displayTask {
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.deleteBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(214, 25, 25);
+}
+
+.displaySpan {
+    margin-right: 5px;
+    background-color: rgb(154, 244, 8);
+    display: inline-block;
+    width: 200px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 5px;
+}
+
+.editInput {
+  padding: 4px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.editBtn {
+    border: 2px solid black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: blue;
+}
