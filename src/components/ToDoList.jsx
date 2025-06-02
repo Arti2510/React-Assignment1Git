@@ -58,7 +58,7 @@ function TodoList() {
       </form>
       <ul className='addTask' type="none">
         {todos.map((todo) => (
-          <TodoItem
+          <ToDoItem
             key={todo.id}
             todo={todo}
             onToggle={handleToggleTodo}
