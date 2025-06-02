@@ -11,10 +11,10 @@ A responsive and interactive **To-Do List** application built with **React**, al
 
 ## 📁 Project Structure
 src/
-└── component/
-├── Header.jsx # Top header of the app
-├── TodoList.jsx # Main logic for adding, editing, deleting todos
-└── TodoItem.jsx # Individual todo item component
+└── component/ <br>
+├── Header.jsx                # Top header of the app  <br>
+├── TodoList.jsx              # Main logic for adding, editing, deleting todos  <br>
+└── TodoItem.jsx              # Individual todo item component <br>
 
 ---
 
@@ -30,17 +30,17 @@ src/
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/Arti2510/React-Assignment1Git.git
-cd React-Assignment1Git
+#### bash
+- git clone https://github.com/Arti2510/React-Assignment1Git.git  <br/>
+- cd React-Assignment1Git
 
 ............
 
 ##  Install Dependencies
 
-Make sure you have Node.js installed.
-npm install
-npm run dev
+- Make sure you have Node.js installed.
+- npm install
+- npm run dev
 
 🙋‍♀️ Author
 GitHub: @Arti2510
@@ -48,7 +48,6 @@ GitHub: @Arti2510
 📸 Project Screenshot
 
 ![Project Screenshot](./Screenshot_of_TodoList_Project.png)
-
 
 # React + Vite
 
