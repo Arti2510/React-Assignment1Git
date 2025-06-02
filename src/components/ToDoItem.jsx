@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit, faSave } from '@fortawesome/free-solid-svg-icons';
 
-function TodoItem({ todo, onToggle, onDelete, onEdit }) {
+function ToDoItem({ todo, onToggle, onDelete, onEdit }) {
   const [isEditing, setIsEditing] = useState(false);
   const [editedText, setEditedText] = useState(todo.text);
 
@@ -57,4 +57,4 @@ function TodoItem({ todo, onToggle, onDelete, onEdit }) {
   );
 }
 
-export default TodoItem;
+export default ToDoItem;

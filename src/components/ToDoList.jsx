@@ -1,9 +1,9 @@
 
 // TodoList.jsx
 import { useState } from 'react';
-import TodoItem from './TodoItem';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faTasks } from '@fortawesome/free-solid-svg-icons';
+import ToDoItem from './ToDoItem';
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
